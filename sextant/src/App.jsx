@@ -1,7 +1,7 @@
 import './App.css'
 import Banner from './components/Banner'
 import Card from './components/Card'
-import IpAddressComponent from './components/IpAddressComponent'
+import AddressDisplay from './AddressDisplay'
 function App() {
   
 
@@ -9,14 +9,9 @@ function App() {
     <main>
       <Banner/>
       <div className='body'>
-        <Card heading="Public IP Adress">
+        <Card heading="Public IP Address : ">
           <span>
-           <div>
-           <IpAddressComponent ipv6={true} />
-           </div>
-           <div>
-           <IpAddressComponent ipv6={false} />
-           </div> 
+            <AddressDisplay />
           </span>
         </Card>
       </div>

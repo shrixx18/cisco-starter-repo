@@ -14,3 +14,8 @@
 .body {
   margin-top: 200px;
 }
+
+.connector {
+  padding-top: 1.5px;
+  margin-bottom: 1px;
+}
